@@ -7,7 +7,6 @@ import Cart from './Components/Cart'
 import Profile from './Components/Profile'
 import WishList from './Components/WishList'
 import Category from './Components/Category'
-import OrderScreen from './Components/OrderScreen';
 
 
 function App() {
@@ -26,8 +25,6 @@ function App() {
         <Route path='/profile' element={<Profile/>}  />
         <Route path='/wishlist' element={<WishList/>}  />
         <Route path='/allCategory' element={<Category/>} />
-        <Route path="/OrderScreen" element={<OrderScreen/>} />
-        
       </Routes>
       
     </>
